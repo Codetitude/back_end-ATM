@@ -1,9 +1,6 @@
 const { User } = require('../models')
 const middleware = require('../middleware')
 
-const SALT_ROUNDS = parseInt(process.env.SALT_ROUNDS)
-const APP_SECRET = process.env.APP_SECRET
-
 const GetUserById = async (req, res) => {
   try {
     const user = await User.findByPk(req.params.id)
@@ -75,6 +72,7 @@ const Login = async (req, res) => {
       where: { email: req.body.email },
       raw: true
     })
+
     if (
       user &&
       (await middleware.comparePassword(user.passwordDigest, req.body.password))

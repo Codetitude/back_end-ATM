@@ -4,6 +4,7 @@ const logger = require('morgan')
 const UserPickRouter = require('./routes/UserPickRouter')
 const BlogPostRouter = require('./routes/BlogPostRouter')
 const UserRouter = require('./routes/UserRouter')
+const ComicListRouter = require('./routes/ComicListRouter')
 
 const app = express()
 
@@ -18,4 +19,6 @@ app.get('/', (req, res) => res.json({ message: 'Server Works' }))
 app.use('/user', UserRouter)
 app.use('/blog_post', BlogPostRouter)
 app.use('/user_pick', UserPickRouter)
+app.use('/comic_list', ComicListRouter)
+
 app.listen(PORT, () => console.log(`Server Started On Port: ${PORT}`))

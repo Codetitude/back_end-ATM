@@ -1,13 +1,7 @@
 const router = require('express').Router()
 const controller = require('../controllers/UserController')
 const middleware = require('../middleware')
-router.post('/create', controller.CreateUser)
-
-router.get('/', controller.GetAllUsers)
-
-router.get('/:id', controller.GetUserById)
-
-router.post('/register', controller.Register)
+// router.post('/create', controller.CreateUser)
 
 router.post('/login', controller.Login)
 
@@ -23,5 +17,11 @@ router.put(
   middleware.verifyToken,
   controller.UpdatePassword
 )
+
+router.get('/', controller.GetAllUsers)
+
+router.get('/:id', controller.GetUserById)
+
+router.post('/register', controller.Register)
 
 module.exports = router
