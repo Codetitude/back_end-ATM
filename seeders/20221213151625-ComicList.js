@@ -15,15 +15,7 @@ module.exports = {
           createdAt: new Date(),
           updatedAt: new Date()
         },
-        {
-          title: 'American Vampire',
-          image: 'https://i.imgur.com/4Xjk98Il.jpg',
-          link: 'https://www.dcuniverseinfinite.com/search?q=American%20Vampire&group=comics',
-          publisher: 'Vertigo',
-          genre: 'Dark Fantasy',
-          createdAt: new Date(),
-          updatedAt: new Date()
-        },
+
         {
           title: 'D4VE',
           image: 'https://i.imgur.com/dKuRwJDl.jpg',
@@ -93,6 +85,15 @@ module.exports = {
           link: 'https://imagecomics.com/comics/series/spawn',
           publisher: 'Image',
           genre: 'Horror',
+          createdAt: new Date(),
+          updatedAt: new Date()
+        },
+        {
+          title: 'American Vampire',
+          image: 'https://i.imgur.com/ACOvGgMl.jpg',
+          link: 'https://www.dcuniverseinfinite.com/search?q=American%20Vampire&group=comics',
+          publisher: 'Vertigo',
+          genre: 'Dark Fantasy',
           createdAt: new Date(),
           updatedAt: new Date()
         }
