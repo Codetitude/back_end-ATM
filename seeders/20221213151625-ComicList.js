@@ -8,16 +8,16 @@ module.exports = {
       [
         {
           title: 'Seven to Eternity',
-          image: 'https://imgur.com/GzP8rkr',
+          image: 'https://i.imgur.com/VD3deuGl.jpg',
           link: 'https://imagecomics.com/comics/series/seven-to-eternity',
-          publisher: 'Image Comics',
+          publisher: 'Image ',
           genre: 'Dark Fantasy',
           createdAt: new Date(),
           updatedAt: new Date()
         },
         {
           title: 'American Vampire',
-          image: 'https://i.imgur.com/4Xjk98Ib.jpg',
+          image: 'https://i.imgur.com/4Xjk98Il.jpg',
           link: 'https://www.dcuniverseinfinite.com/search?q=American%20Vampire&group=comics',
           publisher: 'Vertigo',
           genre: 'Dark Fantasy',
@@ -26,7 +26,7 @@ module.exports = {
         },
         {
           title: 'D4VE',
-          image: 'https://i.imgur.com/dKuRwJDb.jpg',
+          image: 'https://i.imgur.com/dKuRwJDl.jpg',
           link: 'https://www.idwpublishing.com/Browse',
           publisher: 'IDW',
           genre: 'Sci-Fi',
@@ -35,7 +35,7 @@ module.exports = {
         },
         {
           title: 'Providence',
-          image: 'https://i.imgur.com/6mAfbFAb.jpg',
+          image: 'https://i.imgur.com/rZnhIt3l.jpg',
           link: 'https://www.comcav.net/products/providence-compendium-hc-deluxe-set?mc_cid=fe68c4040e&mc_eid=%5Be2bec24e7a%5D',
           publisher: 'Avatar',
           genre: 'Horror',
@@ -44,7 +44,7 @@ module.exports = {
         },
         {
           title: 'Black Monday Murders',
-          image: 'https://i.imgur.com/ZIIrxTbb.jpg',
+          image: 'https://i.imgur.com/vFKI8y2l.jpg',
           link: 'https://imagecomics.com/comics/series/the-black-monday-murders',
           publisher: 'Image',
           genre: 'Horror',
@@ -53,7 +53,7 @@ module.exports = {
         },
         {
           title: 'Tokyo Ghost',
-          image: 'https://i.imgur.com/9TqKnNcb.jpg',
+          image: 'https://i.imgur.com/9TqKnNcl.jpg',
           link: 'https://imagecomics.com/comics/series/tokyo-ghost',
           publisher: 'Image',
           genre: 'Dark Fantasy',
@@ -62,7 +62,7 @@ module.exports = {
         },
         {
           title: 'Wytches',
-          image: 'https://i.imgur.com/AnDJkSAb.jpg',
+          image: 'https://i.imgur.com/sNfQFwkl.jpg',
           link: 'https://imagecomics.com/comics/series/wytches',
           publisher: 'Image',
           genre: 'Horror',
@@ -71,7 +71,7 @@ module.exports = {
         },
         {
           title: 'V for Vendetta',
-          image: 'https://i.imgur.com/LcjozO1b.jpg',
+          image: 'https://i.imgur.com/LcjozO1l.jpg',
           link: 'https://www.dc.com/graphic-novels/v-for-vendetta',
           publisher: 'Vertigo',
           genre: 'Crime',
@@ -80,7 +80,7 @@ module.exports = {
         },
         {
           title: 'Gideon Falls',
-          image: 'https://i.imgur.com/dAlsgCub.jpg',
+          image: 'https://i.imgur.com/dAlsgCul.jpg',
           link: 'https://imagecomics.com/comics/series/gideon-falls',
           publisher: 'Image',
           genre: 'Horror',
@@ -89,9 +89,9 @@ module.exports = {
         },
         {
           title: 'Spawn',
-          image: 'https://i.imgur.com/5MeOAAub.png',
+          image: 'https://i.imgur.com/5MeOAAul.png',
           link: 'https://imagecomics.com/comics/series/spawn',
-          publisher: 'https://i.imgur.com/FMYbySDt.jpg',
+          publisher: 'Image',
           genre: 'Horror',
           createdAt: new Date(),
           updatedAt: new Date()

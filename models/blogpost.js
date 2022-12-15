@@ -13,11 +13,13 @@ module.exports = (sequelize, DataTypes) => {
   }
   BlogPost.init(
     {
+      title: DataTypes.STRING,
       image: DataTypes.STRING,
       description: DataTypes.STRING,
       link: DataTypes.STRING,
       userId: {
         type: DataTypes.INTEGER,
+        allowNull: true,
         onUpdate: 'CASCADE',
         onDelete: 'CASCADE',
         references: {

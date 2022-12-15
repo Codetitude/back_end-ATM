@@ -49,7 +49,7 @@ const DeleteBlogPost = async (req, res) => {
     await BlogPost.destroy({ where: { id: req.params.blogpost_id } })
     res.send({
       msg: 'Review has been Deleted!',
-      // payload: req.params.review_id,
+
       status: 'OK!'
     })
   } catch (error) {
