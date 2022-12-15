@@ -9,7 +9,7 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       ComicList.hasMany(models.UserPick, {
-        foreignKey: 'user_pick_id',
+        foreignKey: 'userpick_id',
         as: 'picks',
         onDelete: 'CASCADE',
         onUpdate: 'CASCADE'
