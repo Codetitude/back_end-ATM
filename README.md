@@ -14,7 +14,7 @@
 
 ##### **_Description_**
 
----
+### ATM : The source of All Things Media. This app is a resource for users to share and discover their favorite media. In the current form of the app , the focus of media is in comic books. Shift through user blog posts to discover your next favorite story arc and add it your list on your profile page.
 
 ##### **_Technologies_**
 
@@ -22,26 +22,39 @@
 - Node
 - PostreSQL
 - Sequelize
-- Vue
+- React
 - JWT Auth
 - Github
+- Markdown
 
 ---
 
 ##### **_Getting Started_**
 
+### This project began by first constructing models and seed data on my backend in a psql shell.
+
 ---
 
 <figcaption>ATM! ERD</figcaption>
 
-## ![ERD](<[Imgur](https://i.imgur.com/U1ZerJz.png)>)
+## ![imgur](https://i.imgur.com/U1ZerJz.png)
 
-<figcaption>ATM! Component Hierarchy Diagram</figcaption>
+<figcaption>ATM! Logo</figcaption>
 
-## ![Component Hierarchy Diagram](https://user-images.githubusercontent.com/95553482/202735017-cf7808af-e088-4a61-b5fc-adfaafaccd6d.png)
+## ![Imgur](https://i.imgur.com/RwMm5KKl.jpg)
+
+<figcaption>ATM! Comic List</figcaption>
+
+## ![Imgur](https://i.imgur.com/MBNbMsWl.jpg)
 
 #### **_Future Updates_**
+
+- Implement a 3rd api to get a database of all comics
+- Add media categories including music , film , and art
+- expand on user model and profile
 
 ---
 
 ### **_Credits_**
+
+## Imgur Images: [Imgur](https://imgur.com)
